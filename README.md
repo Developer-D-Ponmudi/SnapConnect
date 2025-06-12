@@ -1,16 +1,46 @@
-# smart_config
+# Smart Config App (Flutter + ESP-Touch)
 
-A new Flutter project.
+A Flutter-based mobile application for configuring IoT devices over Wi-Fi using the **ESP-Touch protocol**. This app allows users to easily connect ESP32/ESP8266 devices to a Wi-Fi network using SmartConfig.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📶 **Wi-Fi Configuration** via ESP-Touch (SmartConfig)
+- 🔍 Automatically discovers ESP devices on the local network
+- ✅ Provides feedback on configuration status (Success/Failure)
+- 🌐 Works with both 2.4GHz Wi-Fi networks and ESP-based IoT boards
+- 🧭 Clean and minimal UI built with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+### 🏠 Splash Screen
+![Splash Screen](screenshots/splashScreen.jpeg)
+
+### 📶 Configuring Wi-Fi
+![Configuring Screen](screenshots/SmartConfigScreen.jpeg)
+
+### ✅ Success Message
+![Success Screen](screenshots/DeviceFound.jpeg)
+
+### ✅ No Device Message
+![No Device Screen](screenshots/NoDeviceFound.jpeg)
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Android Studio / VS Code
+- ESP32 or ESP8266 device with SmartConfig support
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/smart_config_flutter.git
+   cd smart_config_flutter
