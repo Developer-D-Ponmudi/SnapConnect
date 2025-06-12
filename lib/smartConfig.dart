@@ -81,15 +81,8 @@ class _SmartConfigState extends State<SmartConfig> {
               key: _formKey,
               child: Column(
                 children: [
-                  SizedBox(height: 40.h),
-                  Text(
-                    "SMART CONNECT",
-                    style: TextStyle(
-                      fontSize: 18.sp,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black
-                    ),
-                  ),
+                  SizedBox(height: 10.h),
+                 Image.asset("assets/applogo_01.png",width: 120,height: 120,),
                   SizedBox(height: 20.h),
                   Image.asset(
                     "assets/wifi.png",

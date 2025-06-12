@@ -23,6 +23,9 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (_, child) {
         return MaterialApp(
+
+        // 💡 Light theme
+          themeMode: ThemeMode.light, // 🔒 Force light mode
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primaryColor: const Color(0xff374a65),
@@ -65,7 +68,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child:  SplashScreen(),
+      child:  SmartConfig(),
     );
   }
 }
