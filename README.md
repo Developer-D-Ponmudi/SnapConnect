@@ -17,16 +17,16 @@ A Flutter-based mobile application for configuring IoT devices over Wi-Fi using 
 ## 📱 Screenshots
 
 ### 🏠 Splash Screen
-![Splash Screen](screenshots/splashScreen.jpeg)
+<img src="screenshots/splashScreen.jpeg" alt="Splash Screen" width="300" height="600"/>
 
 ### 📶 Configuring Wi-Fi
-![Configuring Screen](screenshots/SmartConfigScreen.jpeg)
+<img src="screenshots/SmartConfigScreen.jpeg" alt="Configuring Screen" width="300" height="600"/>
 
 ### ✅ Success Message
-![Success Screen](screenshots/DeviceFound.jpeg)
+<img src="screenshots/DeviceFound.jpeg" alt="Success Screen" width="300" height="600"/>
 
-### ✅ No Device Message
-![No Device Screen](screenshots/NoDeviceFound.jpeg)
+### ❌ No Device Message
+<img src="screenshots/NoDeviceFound.jpeg" alt="No Device Screen" width="300" height="600"/>
 
 ---
 
